@@ -12,5 +12,8 @@ in {
 			pname = "skint-m";
 			app = "SkintM.app"; 
 		};
+		t2m2 = eclecticlightPkgs.the-time-machine-mechanic.overrideAttrs {
+			pname = "t2m2";
+		};
 	};
 }
