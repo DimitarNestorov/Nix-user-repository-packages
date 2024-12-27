@@ -16,4 +16,6 @@ in {
 			pname = "t2m2";
 		};
 	};
+
+	daisydisk = pkgs.callPackage ./pkgs/daisydisk.nix {};
 }
