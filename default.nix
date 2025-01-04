@@ -19,4 +19,5 @@ in {
 	};
 
 	daisydisk = pkgs.callPackage ./pkgs/daisydisk.nix {};
+	ghostty = pkgs.callPackage ./pkgs/ghostty.nix {};
 }
